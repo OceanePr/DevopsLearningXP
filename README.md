@@ -2,13 +2,16 @@
 
 L'application web (FASTAPI) est connectée à une base de données pour récupérer les données (PostgreSQL) sur une machine virtuelle créée sur Google Cloud Platform.
 
-## Prérequis
-- Google Cloud Platform (GCP) configuré.
-- Une instance Cloud SQL PostgreSQL.
-- Une instance VM pour déployer l'application
+## Tester l'API
+1. Accéder à l'URL http://34.60.39.182:8000/docs
+La VM restera active le temps du test.
+Info : l'IP de la VM est une IP publique statique.
 
-## Déploiement
+
+## Reproduire le dDéploiement
 1. Clonez le dépôt :
    ```bash
    git clone https://github.com/OceanePr/DevopsLearningXP.git
    cd DevopsLearningXP
+2. Exécuter le fichier deploy.sh
+
